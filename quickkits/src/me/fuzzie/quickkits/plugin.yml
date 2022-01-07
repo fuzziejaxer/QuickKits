@@ -1,0 +1,43 @@
+name: QuickKits
+version: 1.0
+api-version: 1.17
+main: me.fuzzie.quickkits.main
+authors:
+  - fuzzie
+  - zribe
+commands:
+  qkhelp:
+    description: get help on the plugin
+    usage: /qkhelp
+  netherite:
+    description: gives full set of netherite armour and tools
+    usage: /netherite
+    permission: quickkits.netherite
+    permission-message: No permission
+  diamond:
+    description: gives full set of diamond armour and tools
+    usage: /diamond
+    permission: quickkits.diamond
+    permission-message: No permission
+  gold:
+    description: gives full set of golden armour and tools
+    usage: /gold
+    permission: quickkits.gold
+    permission-message: No permission
+  iron:
+    description: gives full set of iron armour and tools
+    usage: /iron
+    permission: quickkits.iron
+    permission-message: No Permission
+  stone:
+    description: gives full set of stone/chainmail armour and tools
+    usage: /stone
+    aliases: [chainmail]
+    permission: quickkits.stone
+    permission-message: No permission
+  wood:
+    description: gives full set of wooden/leather armour and tools
+    usage: /wood
+    aliases: [leather]
+    permission: quickkits.wood
+    permission-message: No permission
